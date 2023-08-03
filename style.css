@@ -1,0 +1,133 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Body style */
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+body .container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header style */
+
+header .container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Form style */
+
+form .container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+form .container #materia {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 256px;
+    height: 30px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: #fff;
+    margin-right: 4px;
+}
+
+form .container #nota {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 64px;
+    height: 30px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: #fff;
+    margin-right: 4px;
+}
+
+form .container button {
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: rgb(78, 173, 78);
+    color: #fff;
+    border-radius: 5px;
+}
+
+form .container button:hover {
+    background-color: rgb(122, 184, 122);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+/* Table style */
+
+table {
+    width: 100%;
+}
+
+/* Table/Thead style */
+
+.table table th {
+    border-bottom: 2px solid black;
+    padding: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Tbody style */
+
+.table table td{
+    padding: 14px 0px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.table table td img {
+    height: 30px;
+}
+
+/* tfoot class style */
+
+.aprovado {
+    background-color: rgb(78, 173, 78);
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.reprovado {
+    background-color: red;
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+}
